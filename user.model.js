@@ -31,6 +31,5 @@ var User = /** @class */ (function () {
     return User;
 }());
 
-let userInfo = new User();
-userInfo.setEmail("test@gmail.com");
-console.log(userInfo.email);
+let userInfo = new User("test user","test@gmail.com", "********");
+console.log(userInfo)

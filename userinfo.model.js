@@ -76,6 +76,5 @@ var UserInfo = /** @class */ (function () {
     return UserInfo;
 }());
 
-let userInfoModel = new UserInfo();
-userInfoModel.setGender(Gender.Female);
-console.log(userInfoModel.gender);
+let userInfoModel = new UserInfo("Test", "User", "Sample", "+639123456789", Gender.Female, Date.now(), "123 Sample Address", CivilStatus.Single);
+console.log(userInfoModel);
